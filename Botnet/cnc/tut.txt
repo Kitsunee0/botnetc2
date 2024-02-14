@@ -1,0 +1,6 @@
+first install golang you donut
+
+go mod init main
+go mod tidy
+go build listen.go
+gcc cnc.c -o cnc -pthread
